@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); /*підключення шрифту*/
+body{
+    background: #212529;
+    font-family: 'Caveat', cursive;
+    color: white;
+    margin: 0;
+}
+.container{
+    max-width: 95%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 150px;
+}
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+ul { list-style: none; }
+.nav-button{
+    display: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link.active {
+    color:rgb(251, 255, 0);
+}
+.contacts{
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(251, 255, 0);
+    margin: 15px 0;
+}
+
+.contacts-title{
+    margin-bottom: -50px;
+    font-size: 40px;
+    color: #212529;
+}
+.contacts-content{
+    color: #212529;
+    font-size: 18px;
+}
+.contacts-button{
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-size: 25px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white    ;
+    color: #212529;
+}
+.contacts-social{}
+@media screen and (max-width: 1200px){ /*мобільна версія*/
+    .nav-button{
+    background: none;
+    display: block;
+    border: none;
+
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav.open .nav-list{
+        position: fixed;
+        top:0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: #212529;
+        z-index: 1;
+        padding: 40px 35px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .nav-button{
+        position: absolute;
+        z-index: 9;
+        top: 40px;
+        right: 20px;
+    }
+}
