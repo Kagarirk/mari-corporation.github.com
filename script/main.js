@@ -1,11 +1,15 @@
-const nav = document.querySelector('#nav');
-const navBtn = document.querySelector('#nav-btn');
-const navBtnImg = document.querySelector('#nav-btn-img');
+import firebase from "firebase/app";
+import "firebase/firestore";
 
-navBtn.onclick = () => {
-    if (nav.classList.toggle('open')) {
-        navBtnImg.src = "./css/img/close.svg";
-    }else{
-        navBtnImg.src = "./css/img/burger.svg";
-    }
-}
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://support.google.com/firebase/answer/7015592
+const firebaseConfig = {
+    FIREBASE_CONFIGURATION
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+
+// Initialize Cloud Firestore and get a reference to the service
+const db = firebase.firestore();
