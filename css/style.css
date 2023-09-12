@@ -105,3 +105,52 @@ div.news-name{
     color: white;
     font-weight: bold;
 }
+div.project-list{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+}
+div.project-block{
+    
+    height: 200px;
+    width: fit-content;
+    margin: 5px;
+}
+div.project-logo{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(50%, 50%)
+}
+div.project-name{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+div.link-list{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+}
+div.link{
+    height: 50px;
+    width: 50px;
+    margin: 0 5%;
+}
+footer{
+    margin-top: 16px;
+    text-align: center;
+    
+}
+div.footer-logo{
+    height: 50px;
+
+}
