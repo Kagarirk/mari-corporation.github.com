@@ -154,3 +154,13 @@ div.footer-logo{
     height: 50px;
 
 }
+div.lang{
+    display: none;
+    text-decoration: none;
+    color: white;
+}
+.lang_a:hover .lang{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
