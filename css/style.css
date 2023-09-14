@@ -164,3 +164,18 @@ div.lang{
     text-decoration: none;
     color: white;
 }
+div.conteiner-news{
+    background: #1b1b1b;
+
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+div.conteiner-block{
+    background: #1e1e1e;
+    opacity: 1.0;
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
