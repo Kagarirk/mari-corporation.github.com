@@ -1,3 +1,10 @@
+.flip-list{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
