@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>HOME</title>
+        <link rel="stylesheet" href="/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <link rel="stylesheet" href="/css/aboute.css" type="text/css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-nav">
+                    <div class="logo"><img src="/css/img/LOGO.png"  style="height: inherit;" alt=""></div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link" >HOME</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link active">ABOUTE US</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">PROJECTS</a></li>
+                    </ul>
+            </div></div>
+        </header>
+        <section>
+            <div class="team">
+                <h2>TEAM</h2>
+                <div class="project-list">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>John Doe</h1>
+                            <p>Architect & Engineer</p>
+                            <p>We love that guy</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="link-list">
+                <div class="link"><a href="#!"><img src="/css/img/youtube.svg" alt="" style="height: 50px;"></a></div>
+                <div class="link"><a href="#!"><img src="/css/img/facebook.svg" alt="" style="height: 50px;"></a></div>
+                <div class="link"><a href="#!"><img src="/css/img/INSTAGRAM.svg" alt="" style="height:50px;"></a></div>
+            </div>
+        </section>
+        <section>
+            <ul>
+                <div class="lang_a"><li>English</li>
+                <div class="lang">
+                    <li><a href="#!" class="lang">Ukrain</a></li>
+                </div>
+                </div>
+            </ul>
+        </section>
+        <section>
+            <ul>
+                <li>Cintact us</li>
+                <li>Terms of User</li>
+                <li>Privacy & Legal</li>
+            </ul>
+        </section>
+        <footer>
+            <div class="footer-logo"><img src="/css/img/LOGO.png" alt="" style="height: 100%;"></div>
+            <h3>MARI-corporation</h3>
+        </footer>
+        <div id="container-news" class="conteiner-news">
+            <div class="conteiner-block">
+                <div class="close-news" onclick="closenews()">Х</div>
+                
+            </div>
+        </div>
+        <script>
+            function opennews(){
+            document.getElementById("news-button").style.display="none";
+            document.getElementById("container-news").style.display="block";
+            }
+                  function closenews(){
+            document.getElementById("news-button").style.display="block";
+            document.getElementById("container-news").style.display="none";
+            }
+          </script>
+    </body>
+</html>
